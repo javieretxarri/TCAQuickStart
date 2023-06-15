@@ -8,23 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		F95CA3632A39E19F000D3649 /* TCAQuickStartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA3622A39E19F000D3649 /* TCAQuickStartApp.swift */; };
-		F95CA3652A39E19F000D3649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA3642A39E19F000D3649 /* ContentView.swift */; };
 		F95CA3672A39E1A0000D3649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95CA3662A39E1A0000D3649 /* Assets.xcassets */; };
 		F95CA36A2A39E1A0000D3649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95CA3692A39E1A0000D3649 /* Preview Assets.xcassets */; };
-		F95CA3742A39E1A0000D3649 /* TCAQuickStartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA3732A39E1A0000D3649 /* TCAQuickStartTests.swift */; };
-		F95CA37E2A39E1A0000D3649 /* TCAQuickStartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA37D2A39E1A0000D3649 /* TCAQuickStartUITests.swift */; };
-		F95CA3802A39E1A0000D3649 /* TCAQuickStartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA37F2A39E1A0000D3649 /* TCAQuickStartUITestsLaunchTests.swift */; };
+		F95CA3902A39E210000D3649 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA38D2A39E210000D3649 /* CounterFeature.swift */; };
+		F95CA3912A39E210000D3649 /* CounterFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA38E2A39E210000D3649 /* CounterFeatureView.swift */; };
+		F95CA3952A39E256000D3649 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F95CA3942A39E256000D3649 /* ComposableArchitecture */; };
+		F95CA3972A39E48A000D3649 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA3962A39E48A000D3649 /* CounterFeatureTests.swift */; };
+		F95CA39E2A39E619000D3649 /* TCAQuickStartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA39D2A39E619000D3649 /* TCAQuickStartTests.swift */; };
+		F95CA3A52A3AF64D000D3649 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CA3A42A3AF64D000D3649 /* NumberFactClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		F95CA3702A39E1A0000D3649 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F95CA3572A39E19F000D3649 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F95CA35E2A39E19F000D3649;
-			remoteInfo = TCAQuickStart;
-		};
-		F95CA37A2A39E1A0000D3649 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F95CA3572A39E19F000D3649 /* Project object */;
 			proxyType = 1;
@@ -36,14 +31,15 @@
 /* Begin PBXFileReference section */
 		F95CA35F2A39E19F000D3649 /* TCAQuickStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAQuickStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95CA3622A39E19F000D3649 /* TCAQuickStartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAQuickStartApp.swift; sourceTree = "<group>"; };
-		F95CA3642A39E19F000D3649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F95CA3662A39E1A0000D3649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F95CA3692A39E1A0000D3649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F95CA36F2A39E1A0000D3649 /* TCAQuickStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAQuickStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F95CA3732A39E1A0000D3649 /* TCAQuickStartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAQuickStartTests.swift; sourceTree = "<group>"; };
-		F95CA3792A39E1A0000D3649 /* TCAQuickStartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAQuickStartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F95CA37D2A39E1A0000D3649 /* TCAQuickStartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAQuickStartUITests.swift; sourceTree = "<group>"; };
-		F95CA37F2A39E1A0000D3649 /* TCAQuickStartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAQuickStartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F95CA38C2A39E1D7000D3649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F95CA38D2A39E210000D3649 /* CounterFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		F95CA38E2A39E210000D3649 /* CounterFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterFeatureView.swift; sourceTree = "<group>"; };
+		F95CA3962A39E48A000D3649 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		F95CA39D2A39E619000D3649 /* TCAQuickStartTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCAQuickStartTests.swift; sourceTree = "<group>"; };
+		F95CA3A42A3AF64D000D3649 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +47,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95CA3952A39E256000D3649 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F95CA36C2A39E1A0000D3649 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F95CA3762A39E1A0000D3649 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +66,6 @@
 			children = (
 				F95CA3612A39E19F000D3649 /* TCAQuickStart */,
 				F95CA3722A39E1A0000D3649 /* TCAQuickStartTests */,
-				F95CA37C2A39E1A0000D3649 /* TCAQuickStartUITests */,
 				F95CA3602A39E19F000D3649 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +75,6 @@
 			children = (
 				F95CA35F2A39E19F000D3649 /* TCAQuickStart.app */,
 				F95CA36F2A39E1A0000D3649 /* TCAQuickStartTests.xctest */,
-				F95CA3792A39E1A0000D3649 /* TCAQuickStartUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +82,12 @@
 		F95CA3612A39E19F000D3649 /* TCAQuickStart */ = {
 			isa = PBXGroup;
 			children = (
+				F95CA38C2A39E1D7000D3649 /* Info.plist */,
 				F95CA3622A39E19F000D3649 /* TCAQuickStartApp.swift */,
-				F95CA3642A39E19F000D3649 /* ContentView.swift */,
+				F95CA38D2A39E210000D3649 /* CounterFeature.swift */,
+				F95CA38E2A39E210000D3649 /* CounterFeatureView.swift */,
+				F95CA3962A39E48A000D3649 /* CounterFeatureTests.swift */,
+				F95CA3A42A3AF64D000D3649 /* NumberFactClient.swift */,
 				F95CA3662A39E1A0000D3649 /* Assets.xcassets */,
 				F95CA3682A39E1A0000D3649 /* Preview Content */,
 			);
@@ -113,18 +105,9 @@
 		F95CA3722A39E1A0000D3649 /* TCAQuickStartTests */ = {
 			isa = PBXGroup;
 			children = (
-				F95CA3732A39E1A0000D3649 /* TCAQuickStartTests.swift */,
+				F95CA39D2A39E619000D3649 /* TCAQuickStartTests.swift */,
 			);
 			path = TCAQuickStartTests;
-			sourceTree = "<group>";
-		};
-		F95CA37C2A39E1A0000D3649 /* TCAQuickStartUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F95CA37D2A39E1A0000D3649 /* TCAQuickStartUITests.swift */,
-				F95CA37F2A39E1A0000D3649 /* TCAQuickStartUITestsLaunchTests.swift */,
-			);
-			path = TCAQuickStartUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +126,9 @@
 			dependencies = (
 			);
 			name = TCAQuickStart;
+			packageProductDependencies = (
+				F95CA3942A39E256000D3649 /* ComposableArchitecture */,
+			);
 			productName = TCAQuickStart;
 			productReference = F95CA35F2A39E19F000D3649 /* TCAQuickStart.app */;
 			productType = "com.apple.product-type.application";
@@ -165,24 +151,6 @@
 			productReference = F95CA36F2A39E1A0000D3649 /* TCAQuickStartTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F95CA3782A39E1A0000D3649 /* TCAQuickStartUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F95CA3892A39E1A0000D3649 /* Build configuration list for PBXNativeTarget "TCAQuickStartUITests" */;
-			buildPhases = (
-				F95CA3752A39E1A0000D3649 /* Sources */,
-				F95CA3762A39E1A0000D3649 /* Frameworks */,
-				F95CA3772A39E1A0000D3649 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F95CA37B2A39E1A0000D3649 /* PBXTargetDependency */,
-			);
-			name = TCAQuickStartUITests;
-			productName = TCAQuickStartUITests;
-			productReference = F95CA3792A39E1A0000D3649 /* TCAQuickStartUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +168,6 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = F95CA35E2A39E19F000D3649;
 					};
-					F95CA3782A39E1A0000D3649 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = F95CA35E2A39E19F000D3649;
-					};
 				};
 			};
 			buildConfigurationList = F95CA35A2A39E19F000D3649 /* Build configuration list for PBXProject "TCAQuickStart" */;
@@ -215,13 +179,15 @@
 				Base,
 			);
 			mainGroup = F95CA3562A39E19F000D3649;
+			packageReferences = (
+				F95CA3932A39E256000D3649 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = F95CA3602A39E19F000D3649 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F95CA35E2A39E19F000D3649 /* TCAQuickStart */,
 				F95CA36E2A39E1A0000D3649 /* TCAQuickStartTests */,
-				F95CA3782A39E1A0000D3649 /* TCAQuickStartUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +209,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F95CA3772A39E1A0000D3649 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F95CA3652A39E19F000D3649 /* ContentView.swift in Sources */,
+				F95CA3902A39E210000D3649 /* CounterFeature.swift in Sources */,
+				F95CA3912A39E210000D3649 /* CounterFeatureView.swift in Sources */,
 				F95CA3632A39E19F000D3649 /* TCAQuickStartApp.swift in Sources */,
+				F95CA3A52A3AF64D000D3649 /* NumberFactClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F95CA3742A39E1A0000D3649 /* TCAQuickStartTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F95CA3752A39E1A0000D3649 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F95CA3802A39E1A0000D3649 /* TCAQuickStartUITestsLaunchTests.swift in Sources */,
-				F95CA37E2A39E1A0000D3649 /* TCAQuickStartUITests.swift in Sources */,
+				F95CA3972A39E48A000D3649 /* CounterFeatureTests.swift in Sources */,
+				F95CA39E2A39E619000D3649 /* TCAQuickStartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +239,6 @@
 			isa = PBXTargetDependency;
 			target = F95CA35E2A39E19F000D3649 /* TCAQuickStart */;
 			targetProxy = F95CA3702A39E1A0000D3649 /* PBXContainerItemProxy */;
-		};
-		F95CA37B2A39E1A0000D3649 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F95CA35E2A39E19F000D3649 /* TCAQuickStart */;
-			targetProxy = F95CA37A2A39E1A0000D3649 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,6 +368,7 @@
 				DEVELOPMENT_TEAM = N9HCL8S8K9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCAQuickStart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +398,7 @@
 				DEVELOPMENT_TEAM = N9HCL8S8K9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCAQuickStart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -507,42 +457,6 @@
 			};
 			name = Release;
 		};
-		F95CA38A2A39E1A0000D3649 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N9HCL8S8K9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.javieretxarri.TCAQuickStartUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TCAQuickStart;
-			};
-			name = Debug;
-		};
-		F95CA38B2A39E1A0000D3649 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N9HCL8S8K9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.javieretxarri.TCAQuickStartUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TCAQuickStart;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,16 +487,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95CA3892A39E1A0000D3649 /* Build configuration list for PBXNativeTarget "TCAQuickStartUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F95CA38A2A39E1A0000D3649 /* Debug */,
-				F95CA38B2A39E1A0000D3649 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F95CA3932A39E256000D3649 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F95CA3942A39E256000D3649 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F95CA3932A39E256000D3649 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F95CA3572A39E19F000D3649 /* Project object */;
 }
